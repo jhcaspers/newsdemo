@@ -65,7 +65,7 @@ class NewsTicker
     private function _doAjaxGetNews() {
         $lastId = (int)$_POST['getnews'];
         $answer = array(
-            'lastdate'=>date("Y-m-d H:i"),
+            'lastdate'=>date("d.m.Y H:i"),
             'time'=>date('H:i'),
             'newnews'=>0,
             'newstext'=>'',
